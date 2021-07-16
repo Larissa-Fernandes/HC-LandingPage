@@ -76,7 +76,7 @@ html, body {
 
 .squareBanner {
     margin: 0;
-    position: absolute;    
+    position: fixed;    
     top: 30%;
     left: 30%;    
     transform: translate(125%, -28%);   
