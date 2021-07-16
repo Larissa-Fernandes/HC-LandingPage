@@ -14,10 +14,7 @@
     color: #ffffffd8;
     text-align: center;
     padding: 13px 20px;
-    text-decoration: none;
-    font-size: 12px;
-    font-family:'Raleway';  
-    font-weight: bold;  
+    text-decoration: none;     
 }
   
 /* Links com o foco do mouse mouse */
@@ -68,6 +65,10 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
   } 
 
 /* banner pink color: #c62447 */
@@ -83,9 +84,26 @@ html, body {
 
     height: 500px;
     width: 350px;
-    background-color: #000;   
-    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.3);   
     border-color: #c62447;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
+  }
+
+  #readAndAccept{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+  }
+
+  .subscribeText{       
+         
+      font-size: 24px;
+  }
+
+  .formSubscribe{     
+      text-align: center;
+      margin: auto;
+      width: 90%;  
+      padding: 25% 0;
+      margin: auto;
   }
