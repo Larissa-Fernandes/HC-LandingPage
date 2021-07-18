@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <title>BlackFriday!</title>
-        <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap' rel='stylesheet'>
     </head>
     <body>
         <div class="topNavigator">
@@ -21,20 +21,30 @@
                 <img src="assets/freepik-Denamorado.jpg" class = "backgroundBanner">
                 <img src="assets/freepik-BiZkettE1.png" alt="Black Friday" class="blackFBanner">
                 <div class="squareBanner">
-                    <form class='formSubscribe'>
-                        <span class="subscribeText">Subscribe in out newsletter to receive all new dicounts!</span><br><br><br>
-                        <label for='fname'>FIRST NAME:</label><br><br>
-                        <input type="text" id='fname' name='fname'><br><br><br>
-                        <label for="emailForm">E-MAIL:</label><br><br>
-                        <input type="email" id="emailForm" name='emailForm'><br><br><br>
-                        <input type="checkbox" id="checkboxForm">
-                        <label for="checkboxForm" id='readAndAccept'>I have read and I accept the terms and conditions.</label><br><br>
-                        <input type="submit" value="submit">                                                
-                    </form>
+                    <div id="formArea">
+                        <form action="" class='formSubscribe'>
+                            <span class="subscribeText">Subscribe in out newsletter to receive all new dicounts!</span><br><br><br>
+                        
+                            <label for='fname'>FIRST NAME:</label><br><br>                        
+                            <input type="text" id='fname' name='fname'><br><br><br>
+                        
+                            <label for="emailForm">E-MAIL:</label><br><br>
+                            <input type="email" id="emailForm" name='emailForm'><br><br><br>
+                        
+                            <input type="checkbox" id="checkboxForm">
+                            <label for="checkboxForm">I have read and I accept the terms and conditions.</label><br><br>
+                        
+                            <input type="submit" value="send">                                                
+                        </form>
+                    </div>
                 </div>
-            </div>
-            
+            </div>            
         </div>
+        <footer>
+            <p>Desenvolvido por Larissa Fernandes</p>
+            <a href="https://github.com/Larissa-Fernandes" target="_blank"><img src="assets/iconsplace-github.png" id="icons"></a>
+            <a href="https://linkedin.com/in/Larissa-Fernandes-" target="_blank"><img src="assets/iconsplace-linkedin.png" id="icons"></a>
+        </footer>
     </body>
     <script src="js/script.js"></script>
 </html>
