@@ -9,10 +9,9 @@ footer p{
 }
 
 footer img{
-    transform: translate(630px);
+    position: absolute;
     width: 32px;
-    padding-top: 0px;
-    padding-left: 10px;
+    vertical-align: middle;
 }
 
 /* Fundo preto no menu superior */
