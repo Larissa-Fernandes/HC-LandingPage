@@ -3,15 +3,18 @@ footer{
 }
 
 footer p{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    text-align: center; 
+
 }
 
 footer img{
-    position: absolute;
     width: 32px;
-    vertical-align: middle;
+    padding: 5px;        
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -0%);
 }
 
 /* Fundo preto no menu superior */
